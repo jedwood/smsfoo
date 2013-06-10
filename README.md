@@ -1,2 +1,16 @@
 SMS Foo : SMS-ify your Wufoo forms
 ---
+
+[WuFoo](http://wufoo.com) is pretty awesome even for those of us that know how to make forms from scratch.
+
+Sometimes filling out quick surveys or sign-up forms is best done via SMS. [Twilio](http://twilio.com) makes that a snap.
+
+*SMS Foo* lets you use build and use WuFoo forms for both web-based and SMS interactions.
+
+##Demo
+
+As of June 10, 2013 you can see an example and test out your own WuFoo form at [smsfoo.com](http://www.smsfoo.com).
+
+##Setup
+
+See `config-sample.json` for the list of variables you'll need to define either via a `config.json` file or through the environment variables that your host passes to the app.
