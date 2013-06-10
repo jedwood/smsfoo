@@ -1,0 +1,59 @@
+!!! 5
+html
+  head
+  title= 'SMS Foo | SMS-enable your Wufoo forms'
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  meta(content='text/html; charset=UTF-8', http-equiv='Content-Type')
+  link(rel='stylesheet', href='css/bootstrap.min.css')
+  link(rel='stylesheet', href='css/bootstrap-responsive.min.css')
+  link(rel='stylesheet', href='css/style.css')
+  body.home
+    a(href='https://github.com/jedwood/smsfoo')
+      img(style='position: absolute; top: 0; right: 0; border: 0;', src='https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png', alt='Fork me on GitHub')
+    .container.main-container
+      .row
+        #form-wrapper.span8.offset2.form-wrapper
+          h3 SMS-enable your Wufoo forms
+          p See <a href='https://limechile.wufoo.com/forms/chitown-essentials/' class='ongreen'>this three-question form</a> in action by texting "pizza" to <strong>312-800-1576</strong>
+
+          p or enter your Wufoo info below and try it with your own form!
+
+          hr
+
+          form#form-creds
+            #subdomain-wrapper.control-group
+              label.control-label(for='subdomain') Subdomain
+              .controls
+                .input-append
+                  input#subdomain.span2(type='text', name='subdomain', placeholder='wufooapi')
+                  span.add-on .wufoo.com
+            #apikey-wrapper.control-group
+              label.control-label(for='apiKey') Wufoo API Key
+              .controls
+                input#apikey(type='password', name='apiKey', placeholder='R74O-RZPC-BZW0-W0TM')
+            a#get-forms.btn(href='#') Get Forms
+            #forms-wrapper.control-group.hide
+              label.control-label(for='form-list')
+              .controls
+                select#wuforms(name='wuforms')
+            #nickname-wrapper.control-group.hide
+              label.control-label(for='subdomain') Give it a nickname
+              .controls
+                input#nickname(type='text', name='nickname', placeholder='pizza')
+            a#sms-enable.btn.hide(href='#') SMS-ify it!
+      .row.poweredby
+        .span3.offset2.poweredbytwil
+          a(href='http://www.twilio.com/', style='text: decoration: none; display: inline-block; width: 135px; height: 0; overflow: hidden; padding-top: 44px; background: url(http://www.twilio.com/packages/company/img/logos_icon_poweredbylarge.png) no-repeat;') powered by twilio™
+        .span2
+          a(href='http://www.wufoo.com/')
+            img.madeforwu(src='/img/wufoo-gray-medium.png')
+
+
+
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+    script(type='text/javascript')
+      if (typeof jQuery == 'undefined') {
+        document.write(unescape('%3Cscript src="/js/jquery-1.9.1.min.js" type="text/javascript"%3E%3C/script%3E'));
+      }
+    script(src='js/main.js')
+    script(src='js/bootstrap.min.js')

@@ -1,4 +1,2 @@
-smsfoo
-======
-
-SMS-enable your Wufoo forms
+SMS Foo : SMS-ify your Wufoo forms
+---
