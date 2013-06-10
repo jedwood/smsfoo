@@ -5,7 +5,7 @@ SMS Foo : SMS-ify your Wufoo forms
 
 Sometimes filling out quick surveys or sign-up forms is best done via SMS. [Twilio](http://twilio.com) makes that a snap.
 
-*SMS Foo* lets you use build and use WuFoo forms for both web-based and SMS interactions.
+_SMS Foo_ lets you build and use WuFoo forms for both web-based and SMS interactions.
 
 ##Demo
 
