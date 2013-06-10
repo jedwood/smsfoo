@@ -127,6 +127,8 @@ var getNextQuestion = function(nickname, lastField, cb) {
             }
             q += " " + (i+1) + ") " + qObj.Choices[i].Label;
           }
+          //hack a nicer format for just two options:
+          if (qObj.Choices.length == 2) trailingBit = ". Enter 1 or 2";
           q += trailingBit;
         }
         cb(survey, q, qObj);
