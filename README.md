@@ -7,10 +7,6 @@ Sometimes filling out quick surveys or sign-up forms is best done via SMS. [Twil
 
 _SMS Foo_ lets you build and use the same WuFoo form for both web-based and SMS interactions.
 
-##Demo
-
-As of June 10, 2013 you can see an example and test out your own WuFoo form at [smsfoo.com](http://www.smsfoo.com).
-
 ##Setup
 
 See `config-sample.json` for the list of variables you'll need to define either via a `config.json` file or through the environment variables that your host passes to the app.
